@@ -9,9 +9,9 @@
   "author": "clbo",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "4.13.4"
   },
   "engines": {
-    "node": "0.8.x"
+    "node": "0.12.7"
   }
 }
