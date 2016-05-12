@@ -1,7 +1,11 @@
-var http = require('http');
+var express = require('express');
+var app = express();
 
-http.createServer(function (req, res) {
-	res.write("Hello World");
-	res.end()
 
-}).listen(process.env.PORT ||3000);
+app.get('/', function (req, res) {
+	res.send({'msg' : 'Hello world'});
+	// test 33
+});
+
+
+app.listen(process.env.PORT || 3000);
